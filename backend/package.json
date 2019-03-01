@@ -7,6 +7,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "chalk": "^2.4.2",
     "express": "^4.16.4",
     "my-local-ip": "^1.0.0",
     "node-audio-windows": "^1.0.1",

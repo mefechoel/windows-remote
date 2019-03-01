@@ -3,6 +3,7 @@ const express = require('express');
 const localIp = require('my-local-ip');
 const ks = require('node-key-sender');
 const { getVolume, setVolume } = require('node-audio-windows').volume;
+const chalk = require('chalk');
 
 const PORT = 3210;
 const app = express();
@@ -27,4 +28,9 @@ app.get('/pause', (req, res) => {
   res.sendStatus(204);
 });
 
-app.listen(PORT, () => console.log(`${localIp()}:${PORT}`));
+app.listen(PORT, () => {
+  console.log();
+  console.log('Fernbedienung unter');
+  console.log(chalk.yellow(`http://${localIp()}:${PORT}`));
+  console.log('aufrufen');
+});
