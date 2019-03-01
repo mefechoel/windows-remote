@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "my-local-ip": "^1.0.0",
+    "node-audio-windows": "^1.0.1",
+    "node-key-sender": "^1.0.11"
+  }
+}
