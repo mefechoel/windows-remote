@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "my-local-ip": "^1.0.0",
     "node-audio-windows": "^1.0.1",
     "node-key-sender": "^1.0.11"
